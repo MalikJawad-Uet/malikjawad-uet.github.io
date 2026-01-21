@@ -159,4 +159,26 @@ footer {
     width: 28px;
     height: 28px;
 }
+.email-float {
+    position: fixed;
+    width: 56px;
+    height: 56px;
+    bottom: 90px;      /* above WhatsApp */
+    left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    z-index: 9999;
+    text-decoration: none;
+}
+
+.email-float img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
 
