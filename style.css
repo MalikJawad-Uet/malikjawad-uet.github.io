@@ -1,60 +1,127 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
+    background: #0d1117;
+    color: #c9d1d9;
 }
 
 header {
-    background: #0a2540;
-    color: white;
-    padding: 40px 20px;
     text-align: center;
+    padding: 60px 20px;
+    background: radial-gradient(circle, #1f2933, #02040a);
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #58a6ff;
+    object-fit: cover;
+}
+
+.tagline {
+    color: #58a6ff;
+    font-size: 20px;
+}
+
+.sub {
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.85;
+}
+
+.cta {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 24px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.primary {
+    background: #58a6ff;
+    color: black;
+}
+
+.secondary {
+    border: 2px solid #58a6ff;
+    color: #58a6ff;
 }
 
 nav {
-    background: #142850;
+    background: #02040a;
     text-align: center;
     padding: 12px;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
-    color: white;
+    color: #c9d1d9;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
 h2 {
-    color: #0a2540;
-    margin-bottom: 20px;
+    color: #58a6ff;
 }
 
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #02040a;
+    padding: 20px;
+    border-left: 4px solid #58a6ff;
 }
 
 .project {
-    background: white;
-    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background: #02040a;
     margin-bottom: 20px;
-    border-left: 5px solid #0a2540;
+    padding: 20px;
+    align-items: center;
+}
+
+.project img {
+    width: 220px;
+    border-radius: 6px;
+}
+
+.contact-box {
+    background: #02040a;
+    padding: 25px;
+    border-left: 4px solid #58a6ff;
 }
 
 footer {
-    background: #0a2540;
-    color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    background: #02040a;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+    .project img {
+        width: 100%;
+    }
 }
