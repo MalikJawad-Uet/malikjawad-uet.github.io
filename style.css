@@ -126,7 +126,7 @@ footer {
     width: 56px;
     height: 56px;
     bottom: 90px;      /* above WhatsApp */
-    left: 20px;
+    right: 20px;
     background-color: white;
     border-radius: 50%;
     display: flex;
@@ -140,7 +140,7 @@ footer {
 .email-float img {
     width: 30px;
     height: 30px;
-    object-fit: contain;
+
 }
 
     
