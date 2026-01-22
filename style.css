@@ -123,8 +123,8 @@ footer {
     }
 .email-float {
     position: fixed;
-    width: 56px;
-    height: 56px;
+    width: 30px;
+    height: 30px;
     bottom: 90px;      /* above WhatsApp */
     right: 20px;
     background-color: white;
@@ -143,21 +143,6 @@ footer {
 
 }
 
-    
-    .whatsapp {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    width: 60px;
-    height: 60px;
-    background: #25D366;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    z-index: 999;
-}
     .project img {
         width: 100%;
     }
