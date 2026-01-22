@@ -124,7 +124,7 @@ footer {
     }
     .project img {
         width: 100%;
-    }
+    }}
 .email-float {
     position: fixed;
     width: 30px;
@@ -156,7 +156,7 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     z-index: 9999;
     text-decoration: none;
-}}
+}
 
 
 
