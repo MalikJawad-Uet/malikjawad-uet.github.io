@@ -122,13 +122,19 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+
     .project img {
         width: 100%;
     }
+}  /* ✅ MEDIA QUERY CLOSED CORRECTLY */
+
+
+/* ================= FLOATING EMAIL ================= */
+
 .email-float {
     position: fixed;
-    width: 30px;
-    height: 30px;
+    width: 56px;
+    height: 56px;
     bottom: 90px;      /* above WhatsApp */
     right: 20px;
     background-color: white;
@@ -141,6 +147,13 @@ footer {
     text-decoration: none;
 }
 
+.email-float img {
+    width: 28px;
+    height: 28px;
+}
+
+
+/* ================= FLOATING WHATSAPP ================= */
 
 .whatsapp-float {
     position: fixed;
@@ -157,10 +170,9 @@ footer {
     z-index: 9999;
     text-decoration: none;
 }
-.whatsapp-float img{
-    width:30px;
-    height:30px;
+
+.whatsapp-float img {
+    width: 30px;
+    height: 30px;
 }
-
-
 
