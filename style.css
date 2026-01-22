@@ -115,6 +115,9 @@ footer {
     background: #02040a;
     opacity: 0.8;
 }
+.project img {
+        width: 100%;
+    }
 
 @media (max-width: 768px) {
     .project {
@@ -143,10 +146,6 @@ footer {
 
 }
 
-    .project img {
-        width: 100%;
-    }
-}
 
 .whatsapp-float {
     position: fixed;
