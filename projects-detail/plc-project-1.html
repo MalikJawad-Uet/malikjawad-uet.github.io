@@ -8,28 +8,115 @@
 <body>
 
 <section class="project-detail">
-    <h2>Conveyor Automation System</h2>
 
-    <p class="project-summary">
-        Designed and commissioned an industrial conveyor automation system
-        using Siemens PLC with safety interlocks and VFD control.
+    <h1>Dye Drum Automation System – KTM</h1>
+
+    <p class="project-location">
+        <strong>Location:</strong> KTM Leather(MG Group) , Multan
     </p>
 
-    <h3>Project Scope</h3>
+    <p class="project-overview">
+        This project involved the complete automation of a dye drum system consisting of
+        <strong>8 industrial drums</strong>. The system was designed to operate in both
+        <strong>local and remote modes</strong>, ensuring safe, flexible, and efficient
+        industrial operation.
+    </p>
+
+    <h2>System Overview</h2>
+    <p>
+        A <strong>Delta PLC</strong> was used as the main controller to manage drum rotation,
+        safety interlocks, speed control, and communication with variable frequency drives.
+        The system includes advanced safety integration using
+        <strong>Schneider Electric safety components</strong>.
+    </p>
+
+    <h2>PLC & HMI Control Logic</h2>
     <ul>
-        <li>PLC program development and testing</li>
-        <li>Sensor integration and logic sequencing</li>
-        <li>VFD speed control</li>
-        <li>On-site commissioning</li>
+        <li>Control of <strong>8 dye drums</strong> using PLC system at 8 Different Control Panels</li>
+        <li>Forward and reverse drum rotation logic</li>
+        <li>Time-based control including:
+            <ul>
+                <li>Forward running time</li>
+                <li>Stop delay time</li>
+                <li>Reverse running time</li>
+            </ul>
+        </li>
+        <li>All timing parameters configurable from the HMI</li>
+        <li>Local and remote mode selection handled via PLC logic</li>
+<li>Brake Control</li>
+<li>Drain Valve Control</li>
     </ul>
 
-    <h3>Technologies Used</h3>
-    <p>Siemens S7 • TIA Portal • VFDs • Proximity Sensors</p>
+    <h2>Safety Integration</h2>
+    <p>
+        The system was designed with multiple industrial safety layers to meet operational
+        and personnel safety requirements:
+    </p>
+    <ul>
+        <li>Schneider safety relays integration</li>
+        <li>Emergency stop push buttons on the control panel</li>
+        <li>Local and remote safety barriers</li>
+        <li>Airline pressure safety monitoring</li>
+        <li>Brake pressure safety interlocks</li>
+    </ul>
 
-    <div class="project-gallery">
-        <img src="../images/profile.jpeg">
-        <img src="../images/profile.jpeg">
-    </div>
+    <h2>Drive & Communication</h2>
+    <p>
+        The PLC communicates with a <strong>Schneider Altivar 71 inverter</strong> using
+        <strong>Modbus RS-485 communication</strong>.
+    </p>
+    <ul>
+        <li>Speed setpoint entered from the HMI</li>
+        <li>PLC transfers speed value to the inverter via Modbus</li>
+        <li>Inverter runs the motor at the selected speed</li>
+        <li>Stable and reliable communication between PLC and VFD</li>
+    </ul>
+
+    <h2>Software & Tools Used</h2>
+    <ul>
+        <li><strong>PLC:</strong> Delta ES2 Series</li>
+        <li><strong>PLC Programming:</strong> ISPSoft (Ladder Logic)</li>
+        <li><strong>HMI:</strong> Delta DOP-107BV</li>
+        <li><strong>HMI Software:</strong> DOPSoft</li>
+        <li><strong>VFD:</strong> Schneider Altivar 71</li>
+        <li><strong>Communication:</strong> Modbus RS-485</li>
+    </ul>
+
+    <h2>Project Outcome</h2>
+    <p>
+        The automated dye drum system improved operational consistency, enhanced safety,
+        and allowed operators to fully control drum timing, speed, and direction from the HMI.
+        The solution delivered a reliable and scalable automation system suitable for
+        industrial production environments.
+    </p>
+
+<h2>Project Images</h2>
+
+<div class="project-gallery">
+
+     <img src="../images/dyedrumplc.jpg">
+
+     <img src="../images/dyedrumhmi1.jpg">
+<img src="../images/dyedrumhmi2.jpg">
+<img src="../images/dyedrumhmi3.jpg">
+<img src="../images/dyedrumhmi4.jpg">
+<img src="../images/dyedrumhmi5.jpg">
+
+     <img src="../images/dyedrum1.jpeg">
+   <img src="../images/dyedrum2.jpeg">
+   <img src="../images/dyedrum4.jpeg">
+   <img src="../images/dyedrum5.jpeg">
+   <img src="../images/dyedrum3.jpeg">
+
+   <img src="../images/dyedrum6.jpeg">
+   <img src="../images/dyedrum7.jpeg">
+<img src="../images/dyedrum8.jpeg">
+
+
+
+
+</div>
+
 
     <a href="../projects/plc.html" class="btn secondary">← Back to PLC Projects</a>
 </section>
