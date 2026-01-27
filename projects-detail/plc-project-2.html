@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Toggle Dryer Automation | PLC Project</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<section class="project-detail">
+<h1>Toggle Dryer Automation – KTM Leather</h1>
+
+<p class="project-location">
+    <strong>Location:</strong> KTM Leather (MG Group), Multan
+</p>
+
+<p class="project-overview">
+    This project involved the complete automation of a
+    <strong>Leather Toggle Dryer Machine</strong> using a
+    <strong>Delta ES2 PLC</strong> with extension modules and a
+    <strong>Delta HMI</strong>. The system was designed for reliable,
+    safe, and fully automatic leather stretching and drying operations.
+</p>
+
+<h2>System Overview</h2>
+<p>
+    The machine consists of a fully enclosed cabin containing
+    <strong>20 toggle plates</strong>, along with two external plates:
+    one on the front side and one on the push-out side.
+    All movements follow a defined sequence controlled by PLC logic
+    using limit switches and proximity sensors.
+</p>
+
+<h2>PLC & HMI Control Logic</h2>
+<ul>
+    <li>Delta ES2 PLC with extension modules</li>
+    <li>24 digital inputs and 20 digital outputs</li>
+    <li>PLC logic developed in <strong>ISPSoft (Ladder Logic)</strong></li>
+    <li>HMI screens developed in <strong>DOPSoft</strong></li>
+    <li>5 HMI screens including machine visualization and I/O mapping</li>
+    <li>Manual and Auto mode operation</li>
+</ul>
+
+<h2>Machine Operation Sequence</h2>
+<ul>
+    <li>Front plate moves inside the cabin using a lever motor and chain</li>
+    <li>Plate position confirmed by limit switches</li>
+    <li>Push-out plate moves to the front side simultaneously</li>
+    <li>Top motor moves the 20-plate frame forward</li>
+    <li>One full cycle detected using proximity sensors</li>
+    <li>Jacks move forward to the required position</li>
+    <li>Jacks lift upward to stretch the leather</li>
+    <li>Lift distance and hold time set from the HMI</li>
+    <li>After hold time, jacks return to the home position</li>
+</ul>
+
+<h2>Pneumatic & Actuation System</h2>
+<ul>
+    <li>Double-acting pneumatic cylinders for jack lift and forward movement</li>
+    <li>Solenoid valves controlled directly by PLC outputs</li>
+    <li>Two position sensors inside each jack for lift distance measurement</li>
+</ul>
+
+<h2>HMI Features</h2>
+<ul>
+    <li>Complete machine graphical layout</li>
+    <li>Input and Output mapping screen</li>
+    <li>Real-time status of limit switches and proximity sensors</li>
+    <li>Operator-friendly interface for faster troubleshooting</li>
+    <li>Reduced machine downtime and simplified maintenance</li>
+</ul>
+
+<h2>Additional Controls</h2>
+<ul>
+    <li>Control of 5 blower systems</li>
+    <li>Fully automatic plate movement in Auto mode</li>
+</ul>
+
+<h2>Software & Tools Used</h2>
+<ul>
+    <li><strong>PLC:</strong> Delta ES2 Series</li>
+    <li><strong>PLC Programming:</strong> ISPSoft (Ladder Logic)</li>
+    <li><strong>HMI:</strong> Delta DOP Series</li>
+    <li><strong>HMI Software:</strong> DOPSoft</li>
+    <li><strong>Sensors:</strong> Limit switches & proximity sensors</li>
+    <li><strong>Pneumatics:</strong> Double-acting cylinders with solenoid valves</li>
+</ul>
+
+<h2>Project Outcome</h2>
+<p>
+    The Toggle Dryer automation system improved production efficiency,
+    ensured consistent leather stretching, reduced downtime,
+    and provided a user-friendly HMI for operators and maintenance staff.
+    The solution delivers a robust and scalable automation system
+    suitable for industrial leather processing environments.
+</p>
+
+
+<h2>Project Images</h2>
+
+<div class="project-gallery">
+
+     <img src="../images/toggle5.jpeg">
+
+     <img src="../images/togglep1.jpg">
+<img src="../images/togglep2.jpg">
+<img src="../images/toggles1.jpg">
+<img src="../images/toggles2.jpg">
+<img src="../images/toggles3.jpg">
+<img src="../images/toggles4.jpg">
+<img src="../images/toggle3.jpeg">
+     <img src="../images/toggle1.jpeg">
+   <img src="../images/toggle2.jpeg">
+
+   <img src="../images/toggle4.jpeg">
+
+   <img src="../images/toggle6.jpeg">
+   <img src="../images/toggle7.jpeg">
+<img src="../images/toggle9.jpeg">
+<img src="../images/toggle10.jpeg">
+
+
+
+
+</div>
+
+
+    <a href="../projects/plc.html" class="btn secondary">← Back to PLC Projects</a>
+</section>
+
+</body>
+</html>
+
